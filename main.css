@@ -1,0 +1,15 @@
+h1 { color: #110b3e; text-align:center; }
+h2 { color: #0d606e; }
+p  { font-size: 18px; }
+button { 
+    align-items: center;
+    justify-content: center; 
+    border-radius: 10px;
+    width: 120px;
+    height: 25px;
+    
+    border: 2px;
+    border-color: #0d606e !important;
+    background-color: #7eb7a5;
+
+}
