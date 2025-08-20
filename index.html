@@ -7,16 +7,18 @@
     <meta name="keywords" content="portafolio, desarrollador web, WordPress, front-end, Cisco certificaciones, Python">
     <meta name="author" content="Andre Eguia">
     <title>Portafolio Profesional - Andre Eguia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Andre Eguia</h1>
-        <p>Desarrollador Web Front-End | Especialista en WordPress</p>
+        <p>Ingeniero de Sistemas | Desarrollador Web</p>
     </header>
     <nav>
         <ul>
             <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#languages">Idiomas</a></li>
             <li><a href="#skills">Habilidades</a></li>
             <li><a href="#experience">Experiencia</a></li>
             <li><a href="#projects">Proyectos</a></li>
@@ -27,21 +29,32 @@
     <main>
         <section id="about">
             <h2>Sobre Mí</h2>
-            <p>Soy Andre Eguia, un desarrollador web front-end con un año de experiencia en el desarrollo de sitios web responsivos y accesibles, especializado en WordPress. Apasionado por la tecnología, combino creatividad y funcionalidad para crear experiencias digitales atractivas. Hablo español nativo, inglés intermedio (B2) e italiano básico.</p>
+            <p>Soy Andre Eguia, un desarrollador web front-end con un año de experiencia en el desarrollo de sitios web responsivos y accesibles, especializado en WordPress. Apasionado por la tecnología, combino creatividad y funcionalidad para crear experiencias digitales atractivas.</p>
         </section>
-        <section id="skills">
-            <h2>Habilidades</h2>
-            <ul class="skills-list">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>WordPress</li>
-                <li>Python</li>
-                <li>Git</li>
-                <li>Accesibilidad Web</li>
-                <li>SEO Básico</li>
+
+        <section id="languages">
+            <h2>Idiomas</h2>
+            <ul class="languages-list">
+                <li><strong>Español:</strong> Nativo</li>
+                <li><strong>Inglés:</strong> Intermedio (B2)</li>
+                <li><strong>Italiano:</strong> Básico</li>
             </ul>
         </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML5</div>
+                <div class="skill-card">CSS3</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">WordPress</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Git</div>
+                <div class="skill-card">Accesibilidad Web</div>
+                <div class="skill-card">SEO Básico</div>
+            </div>
+        </section>
+
         <section id="experience">
             <h2>Experiencia Laboral</h2>
             <article>
@@ -50,25 +63,27 @@
                 <p>Desarrollo de sitios web dinámicos y responsivos utilizando WordPress como CMS principal. Personalización de temas, creación de plugins personalizados y optimización de interfaces para mejorar la experiencia del usuario y el rendimiento SEO.</p>
             </article>
         </section>
+
         <section id="projects">
             <h2>Proyectos Destacados</h2>
             <article>
-                <h3><a href="https://www.analytic.pe/" target="_blank">Analytic.pe</a></h3>
+                <h3><a href="https://www.analytic.pe/">Analytic.pe</a></h3>
                 <p>Desarrollo de un sitio web para una agencia digital enfocada en Growth & Performance, utilizando WordPress con un diseño moderno y optimizado para SEO.</p>
             </article>
             <article>
-                <h3><a href="https://www.kossuthcounty.iowa.gov/" target="_blank">Kossuth County</a></h3>
+                <h3><a href="https://www.kossuthcounty.iowa.gov/">Kossuth County</a></h3>
                 <p>Creación de un sitio web gubernamental con información sobre servicios públicos, notificaciones y eventos comunitarios, asegurando accesibilidad y usabilidad.</p>
             </article>
             <article>
-                <h3><a href="https://spenceriowacity.com/" target="_blank">City of Spencer</a></h3>
+                <h3><a href="https://spenceriowacity.com/">City of Spencer</a></h3>
                 <p>Desarrollo de un portal municipal con actualizaciones en tiempo real sobre eventos y servicios, implementado en WordPress con un diseño responsivo.</p>
             </article>
             <article>
-                <h3><a href="https://www.shaylabeefund.com/" target="_blank">Shayla Bee Fund</a></h3>
+                <h3><a href="https://www.shaylabeefund.com/">Shayla Bee Fund</a></h3>
                 <p>Construcción de un sitio web para una organización benéfica, con un enfoque en la narrativa emocional y la facilidad de donaciones, utilizando WordPress.</p>
             </article>
         </section>
+
         <section id="certifications">
             <h2>Certificaciones</h2>
             <ul>
@@ -81,6 +96,7 @@
                 <li>Certificación en Gestión de Proyectos (detalles a especificar según el proveedor)</li>
             </ul>
         </section>
+
         <section id="contact">
             <h2>Contacto</h2>
             <form action="/submit" method="POST">
